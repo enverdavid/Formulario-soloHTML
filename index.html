@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre películas</title>
+</head>
+<body>
+  <h1>Encuesta para Apple TV+</h1>
+
+  <form action="nowhere.js" method="post">
+    <div>
+      <label for="name">Nombre</label>
+      <input type="text" id="name">
+      <br>
+      <label for="apellido">Apellido</label>
+      <input type="text" id="apellido">
+      
+    </div>
+
+    <div>
+      <h3>Escoge cuál de estas series te gusta más:</h3>
+      <div>
+        <img 
+          src="https://pictures.betaseries.com/fonds/poster/051db3e5c9dbcfeaafc2faf1ad0a1471.jpg" 
+          alt="poster de Foundation"
+          width="100px"
+        >
+          <br>
+        <label for="serie_1">Foundation</label>
+        <input type="radio" id="serie_1" name="serie" value="Foundation">
+      </div>
+    
+      <div>
+        <img 
+          src="https://www.alohacriticon.com/wp-content/uploads/2021/11/the-morning-show-poster-serie-apple.jpg" 
+          alt="Poster de The Morning Show"
+          width="100px"
+        >
+        <br>
+        <label for="serie_3">The Morning Show</label>
+        <input type="radio" id="serie_3" name="serie" value="morning">
+      </div>
+
+      <div>
+        <img 
+          src="https://es.web.img3.acsta.net/pictures/20/07/16/10/21/4967802.jpg" 
+          alt="Poster de Ted Lasso"
+          width="100px"
+        >
+        <br>
+        <label for="serie_2">Ted Lasso</label>
+        <input type="radio" id="serie_2" name="serie" value="Ted">
+      </div>
+
+    </div>
+
+    <div>
+      <h3>Qué género de serie es tú favorito</h3>
+      <select name="generos" id="generos">
+        <option value="fiction">ficción</option>
+        <option value="action">acción</option>
+        <option value="suspense">suspenso</option>
+      </select>
+    </div>
+
+    <button type="submit">Enviar</button>
+
+  </form>
+</body>
+</html>
